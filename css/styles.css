@@ -1,6 +1,7 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: darkgray;
 }
 
 .main-container{
@@ -9,7 +10,7 @@ body{
 
 .left-menu{
     background-color: rgb(55, 175, 255);
-    width: 20vw;
+    width: 18vw;
     height: 100vh;
 }
 
@@ -54,6 +55,225 @@ body{
 
 
 .right-content{
-    width: 80vw;
+    width: 82vw;
     height: 100vh;
 }
+
+.header{
+    background-color: #fff;
+    box-shadow: 1px 1px 5px #222;
+    padding-top: 12px;
+    padding-left: 30px;
+    padding-bottom: 12px;
+}
+
+.icons-header{
+    height: 16px;
+}
+
+.bell{
+    height: 24px;
+}
+
+
+
+.user-and-search{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    justify-content: space-between;
+    margin-bottom: 18px;
+    margin-right: 52px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.search-box{
+    width: 550px;
+    height: 24px;
+    border-radius: 20px;
+    border: none;
+    background-color: darkgrey;
+}
+
+
+
+.user-notification{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.user_avatar{
+    height: 42px;
+}
+
+.user_full_name{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.user-and-actions{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-picture-and-name{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+
+.user_avatar_title{
+    height: 64px;
+}
+
+.username-and-social{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: 700;
+}
+
+.greatings{
+    font-size: 14px;
+}
+
+.name-and-social{
+    font-size: 20px;
+}
+
+.action-buttons{
+    display: flex;
+    gap: 18px;
+    margin-right: 52px;
+}
+
+.action-btn{
+    height: 32px;
+    width: 80px;
+    background-color: rgb(55, 175, 255);
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+}
+
+.action-btn:hover{
+    border: 1px solid #222;
+    background-color: #222;
+}
+
+/* MAIN CONTENT  */
+
+.projects-and-announcements{
+    display: flex;
+    gap: 12px;
+    margin: 30px 20px 40px 20px;
+}
+
+.projects{
+    width: 70%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 22px;
+    justify-content: space-around;
+}
+
+.project_card{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    padding: 10px 10px 10px 20px;
+    height: 150px;
+    width: 350px;
+    background-color: #fff;
+    border-radius: 8px;
+    border-left: 8px solid goldenrod;
+    box-shadow: 1px 2px 2px #222;
+    
+}
+
+.section_titles{
+    font-size: 22px;
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+
+.project_title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.fav-look-share{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px;
+    margin-top: 22px;
+    
+}
+
+
+.project-fav-actions{
+    height: 18px;
+}
+
+/* Announcements */
+
+.announcements_and_trending{
+    width: 30%;
+}
+
+.announcements-container{
+    background-color: #fff;
+    border-radius: 8px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+}
+
+.announcements_titles{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+hr{
+    height: 2px;
+}
+
+/* Trending */
+
+.trending-container{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    padding-right: 20px;
+}
+
+.trending_title{
+    margin-top: 12px;
+}
+
+.trending-user{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 10px;
+
+}
+
+.user_twitter{
+    font-weight: 500;
+}
+

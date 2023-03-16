@@ -52,6 +52,11 @@ body{
     padding-bottom: 12px;
 }
 
+.link_name{
+    margin-left: 10px;
+}
+
+
 .menu_link{
     color:#fff;
     text-decoration: none;
@@ -287,4 +292,104 @@ hr{
     font-weight: 500;
 }
 
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+
+     .main-container{
+        width: 100vw;
+     }
+    .left-menu{
+        width: 30vw;
+    }
+    
+    .right-content{
+        width: 70vw;
+    }
+
+    .search-box{
+        width: 250px;
+    }
+
+    .projects-grid{
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .project_card{
+        width: 260px;
+        height: 140px;
+    }
+
+    .announcements_and_trending{
+        width: 40%;
+    }
+
+}
+
+@media screen and (min-width:375px) and (max-width:768px) {
+
+    .main-container{
+       width: 100vw;
+    }
+   .left-menu{
+       width: 15vw;
+   }
+
+   .link_name_hidden{
+    display: none;
+   }
+   
+   .right-content{
+       width: 85vw;
+       display: flex;
+       flex-direction: column;
+   }
+
+   .header{
+    padding-left: 12px;
+    padding-bottom: 12px;
+}
+
+   
+   .name-and-social{
+    font-size: 16px;
+   }
+
+   .action-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-right: 15px;
+}
+
+.action-btn{
+    height: 22px;
+    width: 60px;
+}
+
+   .search-box{
+       width: 150px;
+   }
+
+   .projects-and-announcements{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .projects-grid{
+       display: flex;
+       flex-direction: column;
+       gap: 12px;
+   }
+
+
+   .project_card{
+       width: 220px;
+       height: 140px;
+   }
+
+
+
+}
 

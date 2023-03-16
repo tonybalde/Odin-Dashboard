@@ -1,7 +1,7 @@
 
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: darkgray;
+    background-color: rgb(214, 214, 214);
 }
 
 .main-container{
@@ -50,9 +50,17 @@ body{
     align-items: center;
     gap: 16px;
     padding-bottom: 12px;
-
 }
 
+.menu_link{
+    color:#fff;
+    text-decoration: none;
+    transition: .3s ease;
+}
+
+.menu_link:hover{
+    transform: scale(120%);
+}
 
 .right-content{
     width: 82vw;
@@ -75,8 +83,6 @@ body{
     height: 24px;
 }
 
-
-
 .user-and-search{
     display: flex;
     align-items: center;
@@ -94,10 +100,10 @@ body{
 
 .search-box{
     width: 550px;
-    height: 24px;
+    height: 28px;
     border-radius: 20px;
     border: none;
-    background-color: darkgrey;
+    background-color: rgb(214, 214, 214);
 }
 
 
@@ -175,23 +181,27 @@ body{
     display: flex;
     gap: 12px;
     margin: 30px 20px 40px 20px;
+    justify-content: space-between;
 }
 
-.projects{
-    width: 70%;
+.projects-grid{
+    resize: both;
+    overflow: auto;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 22px;
-    justify-content: space-around;
+    grid-gap: 32px;
+    padding: 4px;
+    justify-content: center;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .project_card{
     display: flex;
     flex-direction: column;
-    justify-content: stretch;
+    justify-content: space-between;
     padding: 10px 10px 10px 20px;
-    height: 150px;
-    width: 350px;
+    height: 120px;
+    width: 300px;
     background-color: #fff;
     border-radius: 8px;
     border-left: 8px solid goldenrod;
@@ -202,7 +212,7 @@ body{
 .section_titles{
     font-size: 22px;
     font-weight: 500;
-    margin-bottom: 18px;
+    margin-bottom: 12px;
 }
 
 .project_title{
@@ -215,7 +225,7 @@ body{
     align-items: center;
     justify-content: flex-end;
     gap: 12px;
-    margin-top: 22px;
+    margin-top: 20px;
     
 }
 
@@ -276,4 +286,5 @@ hr{
 .user_twitter{
     font-weight: 500;
 }
+
 
